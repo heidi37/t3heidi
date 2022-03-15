@@ -1,0 +1,7 @@
+page = PAGE
+page {
+    // the parameter typeNum is mandatory, setting it to 0 enables the page to be called. If you you would set it to any value above there the page would need to be called with and additional parameter like &type=12345 
+  typeNum = 0
+//    10 = TEXT
+//    10.value = Hello World!
+}
