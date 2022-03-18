@@ -14,6 +14,15 @@
                         />
                     </f:for>
                 </div>
+                <div class="col-12 col-md-4">
+                    <f:for each="{sidebarContent}" as="contentElement">
+                        <f:cObject
+                            typoscriptObjectPath="tt_content.{contentElement.data.CType}"
+                            data="{contentElement.data}"
+                            table="tt_content"
+                        />
+                    </f:for>
+                </div>
             </div>
         </div>
     </main>
