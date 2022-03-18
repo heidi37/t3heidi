@@ -1,5 +1,4 @@
 <?php
-# to automatically load the Typoscript files
 defined('TYPO3') || die();
 
 call_user_func(function () {
