@@ -1,8 +1,15 @@
 <div class="jumbotron">
+
+    <div>
+        <f:image src="EXT:site_package/Resources/Public/Images/logo.png" alt="egg" class="float-left" width="150" height="150" />
+    </div>
     <f:for each="{jumbotronContent}" as="contentElement">
         <div class="container">
-            <h1 class="display-3">{contentElement.data.header}</h1>
-            <f:format.html>{contentElement.data.bodytext}</f:format.html>
+            <h1 class="display-3 ce-headline-{contentElement.data.header_position}">{contentElement.data.header}</h1>
+            <h2 class="ce-headline-{contentElement.data.header_position}">{contentElement.data.subheader}</h2>
+            <div class="ce-headline-{contentElement.data.header_position}">
+                <f:format.html>{contentElement.data.bodytext}</f:format.html>
+            </div>
         </div>
     </f:for>
 </div>

@@ -2,6 +2,10 @@
     background-color: #f8770e!important;
 }
 
+.navbar-dark .navbar-brand {
+    color: #f5c299;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255,255,255,1);
 }
@@ -40,4 +44,16 @@
 .dropdown-item.active {
     color: #fff;
     background-color: #2E343b;
+}
+
+.ce-headline-center {
+    text-align: center;
+}
+
+.ce-headline-right {
+    text-align: right;
+}
+
+.ce-headline-left {
+    text-align: left;
 }
